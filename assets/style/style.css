@@ -1,0 +1,40 @@
+header{
+    display: flex;
+}
+footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: rgb(102, 162, 240);
+}
+#Clinica {
+    color: rgb(62, 134, 230);
+}
+.Color-azul {
+    color: rgb(41, 112, 188);
+}
+#Servicios {
+    background-color: gray;
+    border-radius: 50px;
+    text-align: justify;
+    padding: 10px;
+    margin: 0;
+    width: 200px;
+    font-weight: bold;
+}
+.contenedor {
+    display: flex;
+    gap: 10px;
+    border: 5px solid black;
+}
+.titulo {
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.link-colab {
+    background-color: rgb(20, 30, 129);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;    
+}
