@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title class="borde">Clínica el diente feliz</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/imagenes/logo.png" alt="" width="100px" height="100px">
+        <h1 id="Clinica">Clínica el diente feliz</h1>
+      </header>
+      <br>
+      <br>
+      <h1 class="Color-azul">Haz tu cita</h1>
+      <div class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" ><br>
+            <br>
+            <br>
+            <label for="numero">Número:</label>
+            <input type="tel" id="numero" name="numero"><br>
+            <br>
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="ej. usuario@gamil.com"><br>
+            <br>
+            <br>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br>
+            <br>
+            <br>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora"><br>
+            <br>
+            <br>
+      </div>
+      <br>
+      <form action="/procesar_cita" method="post">
+        <input type="submit" value="Enviar"></input>
+</body>
+</html>

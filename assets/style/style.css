@@ -38,3 +38,12 @@ li{
     border-radius: 20px;
     padding: 10px;    
 }
+.consulta  {
+    float: right;
+  }
+.formulario {
+    background-color: rgb(15, 156, 238);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px; 
+}
